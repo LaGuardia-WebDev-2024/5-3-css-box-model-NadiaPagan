@@ -1,15 +1,18 @@
-# 5-3-CSS-Box-Model <br>
+# 5-1-CSS-Grouping-Elements <br>
 
 ## Video
-[Video](https://youtu.be/g3jMAW7k7TE) <-- Make sure to watch this video first
+[CSS Grouping Elements](https://youtu.be/KGGF6WZdsns) <-- Make sure to watch this video first
 
 ## Directions 
-### Step #1 - Add borders <br>
-This webpage displays a gallery of photos of boxer dogs. In this first step, add a border to all of the photos. Try and make it look like a photo frame, if you can.  <br><br>
-In case you need a reminder - [CSS Border Information](https://www.w3schools.com/css/css_border_shorthand.asp)
+### Step #1 - Add spans <br>
+This webpage describes groupers, a type of large ocean fish. In the first step, your job is to to make the first sentences of each paragraph stand out. Start by adding `<span>` tags around each first sentence. Then give both of your `<span>` tags a class called "first-sentence".
 <br><br>
-### Step #2 - Add margin <br>
-The photos look a bit too close to each other. Add margin to them, either on all sides or just the sides that matter to separate them.
+### Step #2 - Style Spans <br>
+Good! Now, using a class selector, write a CSS rule to style your "first-sentence" class. Make the sentence either italic (CSS Declaration - `font-style: italic;`), or underlined (CSS Declaration - `text-decoration: underline;`).
 <br><br>
-### Step #3 - Add padding <br>
-The photos are too close to the side of the gallery div, and it looks weird. Add padding around all sides of the gallery div so that it looks better.
+### Step #3 - Add a div <br>
+Great! Wrap the paragraphs in a single `<div>`, and then give the div a class of "info".
+<br><br>
+### Step #4 - Style the Div <br>
+Last step! Using a class selector, write a CSS rule to style your 'info' class. Give it a cool looking background color (CSS Property - `background-color: XXX;`).
+<br><br>
